@@ -6,7 +6,7 @@ from pylab import *
 from numpy import *
 import math
 
-%matplotlib inline
+# %matplotlib inline
 import matplotlib.pyplot as plt
 
 def load_mnist(dataset="training", digits=arange(10), path="."):
